@@ -1,0 +1,4 @@
+#03.01.2015
+- looked into sqlite
+- installed sqlite3
+- ran into a problem and found out I needed the sqlite dev library

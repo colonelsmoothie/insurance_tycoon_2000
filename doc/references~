@@ -11,3 +11,8 @@ http://stackoverflow.com/questions/746364/best-library-for-statistics-in-c
 
 properly renaming a directory in a git repository:
 http://stackoverflow.com/questions/11183788/in-a-git-repository-how-to-properly-rename-a-directory
+
+installing sqlite3
+we'll need the development headers which can be installed using the line:
+$sudo apt-get install libsqlite3-dev
+http://www.databasically.com/2010/03/05/installing-sqlite-headers-on-ubuntu-sqlite3-h-not-found/
