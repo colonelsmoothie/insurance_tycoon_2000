@@ -4,12 +4,12 @@
 
 int main()
 {
-  boost::mt19937 rng; // I don't seed it on purpouse (it's not relevant)
-
+  typedef boost::mt19937 RNGType; // I don't seed it on purpouse (it's not relevant)
+  RNGType rng( time(0) );
   boost::normal_distribution<> nd(0.0, 1.0);
 
   boost::variate_generator<boost::mt19937&,
-                           boost::normal_distribution<> > var_nor(rng, nd);
+                           boost::normal_distribution<> > var_nor(RNGType, nd);
 
   int i = 0; for (; i < 10; ++i)
   {

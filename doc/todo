@@ -4,3 +4,5 @@ Priority: high
 - figure out how to count the employees and display summary statistics at a company level
 
 - incorporate some form of the tweedie distribution
+
+- create EER diagram for sqlite db
